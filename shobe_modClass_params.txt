@@ -1,0 +1,52 @@
+nrows:
+100
+ncols:
+100
+dx:
+0.05
+leftmost_elevation:
+0.
+initial_slope:
+0.
+dt:
+.1
+total_time:
+2000.
+time_plot:
+100.
+up_rate:
+0.01
+
+#are we working in a layered landscape or not?
+layered:
+0
+k_erodible:
+0.1
+k_unerodible:
+0.01
+hard_layer_thickness:
+10.
+
+#these are the parameters for the stream power module:
+K_sp:
+array
+m_sp:
+0.5
+n_sp:
+1.
+
+#these are parameters for linear hillslope diffusion
+linear_diffusivity:
+0.000001 
+
+#these are for the storm generator:
+MEAN_STORM:
+0.1
+MEAN_DEPTH:
+0.2
+MEAN_INTERSTORM:
+0.4
+RUN_TIME:
+2000.
+DELTA_T:
+0.1
